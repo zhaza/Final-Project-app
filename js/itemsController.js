@@ -11,7 +11,7 @@ class ItemsController {
         // this.items = JSON.parse(list);
         // const id = localStorage.getItem("id")
         // this.currentId = JSON.parse(id);
-        fetch('https://mighty-springs-36395.herokuapp.com/api/item/all', {
+        fetch('https://mighty-springs-36395.herokuapp.com/api/item/all/https://zhaza.github.io/Final-Project-app/pages/about.html', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ class ItemsController {
     saveDb({name, description, imgUrl, price}){
         const data = { name,  description, imgUrl, price };
 
-        fetch('https://mighty-springs-36395.herokuapp.com/api/item/add', {
+        fetch('https://mighty-springs-36395.herokuapp.com/api/item/ad/https://zhaza.github.io/Final-Project-app/pages/about.html', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ class ItemsController {
 
     delete(itemId){
 
-        fetch(`https://mighty-springs-36395.herokuapp.com/api/item/${itemId}`, {
+        fetch(`https://mighty-springs-36395.herokuapp.com/api/item/${itemId}/https://zhaza.github.io/Final-Project-app/pages/about.html`, {
         method: 'DELETE',
         // mode: "no-cors",
         headers: {
@@ -66,7 +66,7 @@ class ItemsController {
 
     update(itemId, data){
 
-        fetch(`https://mighty-springs-36395.herokuapp.com/api/item/${itemId}`, {
+        fetch(`https://mighty-springs-36395.herokuapp.com/api/item/${itemId}/https://zhaza.github.io/Final-Project-app/pages/about.html`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
