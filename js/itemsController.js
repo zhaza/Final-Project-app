@@ -11,16 +11,14 @@ class ItemsController {
         // this.items = JSON.parse(list);
         // const id = localStorage.getItem("id")
         // this.currentId = JSON.parse(id);
-        fetch('http://localhost:8080/api/item/all', {
-            method: 'GET', // or 'PUT'
+        fetch('https://mighty-springs-36395.herokuapp.com/api/item/all', {
+            method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
             },
-            // body: JSON.stringify(data),
             })
             .then(response => response.json())
             .then(dbItems => {this.items = dbItems
-                // console.log(this.items)
                 displayCards()})
             .catch((error) => {
             console.error('Error:', error);
@@ -34,8 +32,8 @@ class ItemsController {
     saveDb({name, description, imgUrl, price}){
         const data = { name,  description, imgUrl, price };
 
-        fetch('http://localhost:8080/api/item/add', {
-        method: 'POST', // or 'PUT'
+        fetch('https://mighty-springs-36395.herokuapp.com/api/item/add', {
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
@@ -52,13 +50,12 @@ class ItemsController {
 
     delete(itemId){
 
-        fetch(`http://localhost:8080/api/item/${itemId}`, {
-        method: 'DELETE', // or 'PUT'
+        fetch(`https://mighty-springs-36395.herokuapp.com/api/item/${itemId}`, {
+        method: 'DELETE',
         // mode: "no-cors",
         headers: {
             'Content-type': 'application/json; charset=UTF-8',
         },
-        // body: JSON.stringify(data),
         })
         .then(response => response.json())
         .then(console.log('Success'))
@@ -69,8 +66,8 @@ class ItemsController {
 
     update(itemId, data){
 
-        fetch(`http://localhost:8080/api/item/${itemId}`, {
-        method: 'PUT', // or 'PUT'
+        fetch(`https://mighty-springs-36395.herokuapp.com/api/item/${itemId}`, {
+        method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
         },
