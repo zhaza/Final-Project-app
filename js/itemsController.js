@@ -11,7 +11,7 @@ class ItemsController {
         // this.items = JSON.parse(list);
         // const id = localStorage.getItem("id")
         // this.currentId = JSON.parse(id);
-        fetch('https://cors-anywhere.herokuapp.com/api/item/all/https://mighty-springs-36395.herokuapp.com', {
+        fetch('https://cors-anywhere.herokuapp.com/https://mighty-springs-36395.herokuapp.com/api/item/all', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
