@@ -1,0 +1,78 @@
+.logo {
+    grid-area: brand;
+  }
+  .navbar-brand {
+    margin-left: 1em;
+  }
+  .navbar-list {
+    grid-area: list;
+  }
+  #cartLogo {
+    width: 2em;
+    height: auto;
+    grid-area: cart;
+  }
+
+  #pill {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: .1fr 1fr .035fr;
+    grid-template-areas: "brand list cart";
+  }
+
+#header {
+    background: url(https://www.naeyc.org/sites/default/files/styles/page_header_media_large/public/022018/family-banner9.jpg?itok=FmtrgD1l) top/cover no-repeat;
+    padding-top: 104px;
+}
+.btn {
+     background-color: white;
+     color: black;
+     padding: 10px 28px;
+     border-radius: 28;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#about {
+    background: rgba(128, 128, 128, 0.426);
+    border-radius: 0.5rem;
+}
+
+.checked {
+    color: orange;
+  }
+
+  .main-footer {
+    background-color: #5ce1e6;
+    color: white;
+     padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 15px;
+    height: 15px;
+}
+.footer-last p {
+  text-align: center;
+}

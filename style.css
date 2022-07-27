@@ -1,0 +1,181 @@
+body,
+html,
+p {
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.logo {
+  grid-area: brand;
+}
+.navbar-brand {
+  margin-left: 1em;
+}
+.navbar-list {
+  grid-area: list;
+}
+#cartLogo {
+  width: 2em;
+  height: auto;
+  grid-area: cart;
+}
+
+#pill {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.navbar {
+  background-color: light;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 0.035fr;
+  grid-template-areas: "brand list cart";
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("images/src/heropic.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: rgb(63, 16, 16);
+}
+
+.btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: bisque;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-left: 3rem;
+}
+.button:hover {
+  background-color: #4befcb;
+}
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.spam {
+  text-align: center;
+  font-style: bold;
+   margin: 1rem 1rem;
+  font-size: large;
+}
+
+.hero {
+width: 100%;
+}
+.hero img {
+  width: 100%;
+  height: 300px;
+  object-fit:cover;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+}
+
+.card {
+border: none;
+/* width: 100%; */
+}
+
+.sale {
+height: 100px;
+text-align: center;
+margin: 100px;
+background-color: aliceblue;
+}
+
+.sale p {
+text-align: center;
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: crimson
+}
+
+.Card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+width: 100%;
+margin: auto;
+text-align: center;
+font-family: arial;
+}
+
+.price {
+color: grey;
+font-size: 22px;
+}
+
+.Card + button {
+width: 100%;
+height: 35px;
+border: none;
+outline: 0;
+color: white;
+background-color:rgb(231, 99, 99);
+text-align: center;
+cursor: pointer;
+font-size: 16px;
+}
+
+.Card button:hover {
+opacity: 0.7;
+}
+
+.main-footer {
+  background-color: #5ce1e6;
+  color: white;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 15px;
+  height: 15px;
+}
+.footer-last p {
+  text-align: center;
+}
