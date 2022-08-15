@@ -18,7 +18,7 @@ https://github.com/reanderson89/jfsjd-final-project
 # Wireframe that the team designed for ease of reference when coding the page's structure.
 https://docs.google.com/document/d/19HefUTJml-SPmAvQyeabblEEQJ4RRSHqkXQ43xYWzpI/edit
 
-# Website Team Git & Deployment will show the commits, merges, and pull progress that we did as a team.
+# Website Team Git & Deployment will show our progreess through the number of commits, merges, and pull requests that we did as a team.
 https://github.com/JennyTheodore/Final-Project
 https://jennytheodore.github.io/Final-Project/
 
