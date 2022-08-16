@@ -7,6 +7,8 @@ As a majority team of mothers, we found that there needed to be a more robust, o
 May need to request temp access for Cors Proxy to use "About-Us" page functionality that interacts with Heroku.
 https://cors-anywhere.herokuapp.com/corsdemo
 
+## API JAVA and SQL backend deployed through Heroku https://github.com/zhaza/Final-Project-api
+
 ## Cool Features that we are proud of:
 - Form on the About-Us page that allows a user to interact with our backend database. This is our fullstack aspect.
 - Cart icon at the top right will update its number of items whenever the user adds an item to the cart.
